@@ -1,0 +1,30 @@
+pipeline {
+    agent {label 'node'}
+
+    tools{
+        maven 'M3'
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/MariamDghaim/Closing-Task-Jenkins.git'
+
+                // Run Maven on a Unix agent.
+                sh "mvn package clean install"
+
+                // To run Maven on a Windows agent, use
+                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+
+        }
+        
+    }
+    post {
+
+                success {
+                        slackSend baseUrl: 'https://hooks.slack.com/services/', channel: '#fursa', message: 'built successfully!!', teamDomain: 'fursa', tokenCredentialId: 'slack'}
+
+            }
+}
