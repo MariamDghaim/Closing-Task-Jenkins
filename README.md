@@ -36,7 +36,7 @@
 
 [![](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/consoleOutPut.png?raw=true)](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/consoleOutPut.png?raw=true)
 
-[![](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/StageBuild.png?raw=true)](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/StageBuild.png?raw=true)
+[![](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/stage.png?raw=true)](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/stage.png?raw=true)
 
 
 
