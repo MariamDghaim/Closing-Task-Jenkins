@@ -22,9 +22,17 @@ pipeline {
         
     }
     post {
-
-                success {
-                        slackSend baseUrl: 'https://hooks.slack.com/services/', channel: '#fursa', message: 'built successfully!!', teamDomain: 'fursa', tokenCredentialId: 'slack'}
-
-            }
+       // only triggered when blue or green sign
+       success {
+           slackSend color: "good", message: "Passed"
+       }
+       // triggered when red sign
+       failure {
+          slackSend color: "danger", message: "Failed"
+       }
+       // trigger every-works
+       always {
+           slackSend color: "normal", message: "Job done"
+       }
+}
 }
