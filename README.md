@@ -38,6 +38,6 @@
 
 [![](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/stage.png?raw=true)](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/stage.png?raw=true)
 
+## Sendin Slack Notification :
 
-
-
+[![](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/Slack.PNG?raw=true)](https://github.com/MariamDghaim/Closing-Task-Jenkins/blob/master/screen%20shots/Slack.PNG?raw=true)
